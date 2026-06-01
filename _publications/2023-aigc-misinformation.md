@@ -7,7 +7,7 @@ date: 2023-10-01
 venue: "ACM Multimedia 2023"
 authors: "Danni Xu, Shaojing Fan, Mohan Kankanhalli"
 excerpt: "A perspective on misinformation challenges introduced by generative AI and explainable detection strategies."
------------------------------------------------------------------------------------------------------------------------
+---
 
 Recommended citation:
 
