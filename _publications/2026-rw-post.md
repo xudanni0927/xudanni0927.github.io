@@ -7,7 +7,7 @@ date: 2026-06-01
 venue: "CVPR 2026"
 authors: "Danni Xu, Shaojing Fan, Harry Cheng, Mohan Kankanhalli"
 excerpt: "An auditable and evidence-grounded framework for multimodal fact-checking in real-world settings."
-------------------------------------------------------------------------------------------------------------
+---
 
 Recommended citation:
 
