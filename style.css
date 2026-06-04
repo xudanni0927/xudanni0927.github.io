@@ -109,53 +109,76 @@ footer { max-width: 980px; margin: 0 auto; padding: 32px 24px 56px; color: var(-
 
 .pub-card {
   display: grid;
-  grid-template-columns: 340px 1fr;
-  gap: 28px;
+  grid-template-columns: 420px 1fr;
+  gap: 30px;
   align-items: center;
-  margin-bottom: 36px;
+  margin-bottom: 34px;
 }
 
 .pub-image img {
   width: 100%;
+  max-height: 240px;
+  object-fit: contain;
   border-radius: 10px;
   border: 1px solid #e5e7eb;
   background: #fff;
+  padding: 8px;
 }
 
 .pub-content h3 {
-  margin: 0 0 8px;
-  font-size: 1.1rem;
+  margin: 0 0 7px;
+  font-size: 1.08rem;
   line-height: 1.35;
+  font-weight: 700;
 }
 
-.authors,
-.venue,
-.pub-links,
-.pub-desc {
-  margin: 6px 0;
+.pub-authors {
+  margin: 0 0 6px;
+  font-size: 0.93rem;
+  line-height: 1.45;
+  color: #333;
 }
 
-.venue {
+.pub-venue {
   font-style: italic;
-  color: #555;
+  color: #666;
+}
+
+.pub-links {
+  margin: 0 0 8px;
+  font-size: 0.93rem;
+  line-height: 1.4;
 }
 
 .pub-links a {
   color: #2563eb;
   text-decoration: none;
+  font-weight: 500;
 }
 
 .pub-links a:hover {
   text-decoration: underline;
 }
 
-.pub-desc {
-  line-height: 1.65;
-  color: #333;
+.pub-links span {
+  color: #aaa;
+  margin: 0 4px;
 }
 
-@media (max-width: 800px) {
+.pub-desc {
+  margin: 0;
+  font-size: 0.94rem;
+  line-height: 1.55;
+  color: #444;
+}
+
+@media (max-width: 850px) {
   .pub-card {
     grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .pub-image img {
+    max-height: none;
   }
 }
