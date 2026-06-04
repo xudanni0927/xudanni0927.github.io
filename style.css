@@ -250,13 +250,17 @@ footer { max-width: 980px; margin: 0 auto; padding: 32px 24px 56px; color: var(-
   }
 }
 
-.job-market {
-  margin-top: 12px;
-  padding: 10px 14px;
+.contact-card .job-market {
+  margin-top: 14px;
+  padding: 12px 16px;
 
-  border-left: 3px solid #2563eb;
   background: #f8fafc;
+  border-left: 4px solid #2563eb;
+  border-radius: 6px;
 
-  font-size: 0.95rem;
+  text-align: left;
+
   color: #374151;
+  font-size: 0.95rem;
+  line-height: 1.6;
 }
