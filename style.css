@@ -227,6 +227,18 @@ footer { max-width: 980px; margin: 0 auto; padding: 32px 24px 56px; color: var(-
   color: #666;
 }
 
+.pub-badge {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #fef3c7;
+  color: #92400e;
+  font-size: 0.72rem;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
 @media (max-width: 850px) {
   .pub-card {
     grid-template-columns: 1fr;
