@@ -106,3 +106,56 @@ footer { max-width: 980px; margin: 0 auto; padding: 32px 24px 56px; color: var(-
     border-radius:8px;
     margin-bottom:20px;
 }
+
+.pub-card {
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  gap: 28px;
+  align-items: center;
+  margin-bottom: 36px;
+}
+
+.pub-image img {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+}
+
+.pub-content h3 {
+  margin: 0 0 8px;
+  font-size: 1.1rem;
+  line-height: 1.35;
+}
+
+.authors,
+.venue,
+.pub-links,
+.pub-desc {
+  margin: 6px 0;
+}
+
+.venue {
+  font-style: italic;
+  color: #555;
+}
+
+.pub-links a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.pub-links a:hover {
+  text-decoration: underline;
+}
+
+.pub-desc {
+  line-height: 1.65;
+  color: #333;
+}
+
+@media (max-width: 800px) {
+  .pub-card {
+    grid-template-columns: 1fr;
+  }
+}
